@@ -1,0 +1,29 @@
+{
+    "name": "snake",
+    "version": "1.0.0",
+    "description": "🐍 Snake game or something different",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development webpack-dev-server --config-name main --host localhost --watch-poll",
+        "build": "cross-env NODE_ENV=production webpack --progress"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/crashmax-dev/Snake.git"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/preset-env": "^7.14.4",
+        "@types/webpack": "^4.41.22",
+        "@types/webpack-dev-server": "^3.11.0",
+        "babel-loader": "^8.2.2",
+        "clean-webpack-plugin": "^3.0.0",
+        "copy-webpack-plugin": "^6.2.1",
+        "cross-env": "^7.0.3",
+        "ts-loader": "^8.0.14",
+        "typescript": "^4.3.2",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
